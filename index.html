@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rhomboid Generator</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐️</text></svg>">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐️</text></svg>"
+    />
+  </head>
 
-
-</head>
-
-<body>
-    <div class=root>
-        <div class="content">
-            <h1 id="h1">The Rhomboid Generator</h1>
-            <p>Submit a number between <strong>1 and 10</strong> to generate a rhomboid<br></p>
-            <form id="myForm" class="form">
-                <input id="numberInput" type="number" min="1" max="10" value="1">
-                <button type="submit">Create Rhomboid</button>
-            </form>
-        </div>
+  <body>
+    <div class="root">
+      <div class="content">
+        <h1 id="h1">The Rhomboid Generator</h1>
+        <p>
+          Submit a number between <strong>1 and 10</strong> to generate a
+          rhomboid<br />
+        </p>
+        <form id="myForm" class="form">
+          <input id="numberInput" type="number" min="1" max="10" value="1" />
+          <button type="submit">Create Rhomboid</button>
+        </form>
+      </div>
     </div>
-
 
     <div id="rhomboidLocation" class="rhomboidLocation"></div>
 
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>
